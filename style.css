@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: max-content;
+  height: 100vh;
+  background-color: black;
+}
+.items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 35vh;
+  border: 3px solid white;
+  border-radius: 15px;
+  text-decoration: none;
+}
+h1 {
+  color: white;
+  padding-left: 15px;
+}
+li {
+  height: 4vh;
+  width: 150px;
+  text-decoration: none;
+  color: white;
+}
